@@ -21,7 +21,8 @@ class Triangle
       else 
         if
        (a + b < c) || (b + c < a) || (a + c < b)
-        raise TriangleError    
+        raise TriangleError  
+        end
       end
      end
   
