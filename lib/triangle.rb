@@ -5,7 +5,7 @@ class Triangle
   end
     
    def kind
-     error
+     error?
     if @a == @b && @b == @c
       :equilateral
     elsif  
@@ -16,7 +16,7 @@ class Triangle
      end
    end
      
-     def error
+     def error?(a,b,c)
       if a <=0 || b <= 0 || c <= 0
         raise TriangleError
       else 
