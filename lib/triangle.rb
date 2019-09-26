@@ -23,7 +23,7 @@ class Triangle
         raise TriangleError
       else 
         if
-       (@a + @b < @c) || (@b + @c < @a) || (@a + @c < @b) || (@a+@b = @c) 
+       (@a + @b < @c) || (@b + @c < @a) || (@a + @c < @b) || (@a+@b = @c) || (@a+@c = @b)
         raise TriangleError  
         end
       end
