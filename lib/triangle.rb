@@ -21,11 +21,10 @@ class Triangle
      def error?
       if @a + @b + @c <=0
         raise TriangleError
-      else 
-        if
+      elsif 
        (@a + @b < @c) || (@b + @c < @a) || (@a + @c < @b) 
         raise TriangleError  
-        elsif
+      elsif
         (@a+@b == @c) || (@a+@c == @b)
         raise TriangleError
       end
