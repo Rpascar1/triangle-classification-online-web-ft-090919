@@ -16,11 +16,11 @@ class Triangle
    end
      
      def error?(a,b,c)
-      if a <=0 || b <= 0 || c <= 0
+      if @a <=0 ||@b <= 0 || @c <= 0
         raise TriangleError
       else 
         if
-       (a + b < c) || (b + c < a) || (a + c < b)
+       (@a + @b < @c) || (@b + @c < @a) || (@a + @c < @b)
         raise TriangleError  
         end
       end
