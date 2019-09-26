@@ -19,7 +19,7 @@ class Triangle
    end
      
      def error?
-      if @a + @b + @c < 3
+      if @a + @b + @c <=0
         raise TriangleError
       else 
         if
