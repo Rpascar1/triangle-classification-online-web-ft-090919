@@ -18,8 +18,9 @@ class Triangle
      def error
       if a <=0 || b <= 0 || c <= 0
         raise TriangleError
+        end
       elsif
-    a + b < c || b + c < a || a + c < b
+        a + b < c || b + c < a || a + c < b
         raise TriangleError    
       end
      end
