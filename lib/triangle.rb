@@ -1,12 +1,16 @@
 class Triangle
  
   def initialize(a,b,c)
+    @a=a, @b=b, @c=c
+    
     if a == b && b == c
-      @equilateral
+      :equilateral
     elsif  
       a == b || b == c 
-      @isosolese
-     
+      :isosolese
+     elsif 
+      a != b && b != c
+      :scalene
      
      
      
