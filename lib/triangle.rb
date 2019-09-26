@@ -2,8 +2,11 @@ class Triangle
  
   def initialize(a,b,c)
     @a=a, @b=b, @c=c
+  end
     
-    if a == b && b == c
+   def kind
+   
+    if @a == @b && @b == @c
       :equilateral
     elsif  
       a == b || b == c 
@@ -11,7 +14,7 @@ class Triangle
      elsif 
       a != b && b != c
       :scalene
-     
+     end
      
      
      
