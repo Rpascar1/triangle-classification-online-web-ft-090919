@@ -5,6 +5,7 @@ class Triangle
   end
     
    def kind
+     error?
     if @a == @b && @b == @c
       :equilateral
     elsif  
