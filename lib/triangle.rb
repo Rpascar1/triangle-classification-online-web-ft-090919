@@ -11,13 +11,8 @@ class Triangle
     elsif  
       @a == @b || @b == @c 
       :isosolese
-     elsif 
-      @a != @b && @b != @c
+     else
       :scalene
-    else
-      
-        class TriangleError < StandardError
-        end  
      end
      
    end
