@@ -1,3 +1,4 @@
 class Triangle
-  # write code here
+ def initialize(:equilateral,:isosceles,:scalen)
+   
 end
