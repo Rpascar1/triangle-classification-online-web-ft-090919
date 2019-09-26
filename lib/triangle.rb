@@ -1,7 +1,9 @@
 class Triangle
  def initialize(:equilateral,:isosceles,:scalene)
    
-   def kind()
+   def kind(equilateral:,isosceles:,scalene:)
+     
+     
      
      
      
