@@ -15,8 +15,8 @@ class Triangle
      end
    end
      
-     def error?(a,b,c)
-      if @a <=0 ||@b <= 0 || @c <= 0
+     def error?
+      if @a + @b + @c < 3
         raise TriangleError
       else 
         if
