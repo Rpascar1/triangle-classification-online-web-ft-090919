@@ -25,7 +25,8 @@ class Triangle
         if
        (@a + @b < @c) || (@b + @c < @a) || (@a + @c < @b) 
         raise TriangleError  
-        end
+        elsif
+        (@a+@b == @c) || (@a+@c == @b)
       end
      end
   
