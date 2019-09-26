@@ -9,9 +9,10 @@ class Triangle
     if @a == @b && @b == @c
       :equilateral
     elsif  
-      @a == @b || @b == @c 
+      @a == @b || @b == @c ||@a == @c
       :isosolese
-     else
+     elsif
+      @
       :scalene
      end
      
@@ -26,7 +27,7 @@ class Triangle
   
  
   class TriangleError < StandardError
-  
+    raise TriangleError if 
   
   end
 end
